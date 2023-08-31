@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-gamelibrary/static/css/main.41daa5b2.css",
-    "main.js": "/react-gamelibrary/static/js/main.0a2a454c.js",
+    "main.js": "/react-gamelibrary/static/js/main.edb6ff36.js",
     "static/media/search-icon.svg": "/react-gamelibrary/static/media/search-icon.dcc917b4aaedba50220f7e8a520b49a2.svg",
     "index.html": "/react-gamelibrary/index.html",
     "main.41daa5b2.css.map": "/react-gamelibrary/static/css/main.41daa5b2.css.map",
-    "main.0a2a454c.js.map": "/react-gamelibrary/static/js/main.0a2a454c.js.map"
+    "main.edb6ff36.js.map": "/react-gamelibrary/static/js/main.edb6ff36.js.map"
   },
   "entrypoints": [
     "static/css/main.41daa5b2.css",
-    "static/js/main.0a2a454c.js"
+    "static/js/main.edb6ff36.js"
   ]
 }
