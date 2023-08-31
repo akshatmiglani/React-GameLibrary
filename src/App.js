@@ -4,15 +4,14 @@ import GameCard from './GameCard';
 import SearchIcon from './search-icon.svg';
 const KEY=process.env.REACT_APP_KEY;
 const API_URL=`https://api.rawg.io/api/games?key=${KEY}`;
-console.log(process.env.REACT_APP_KEY)
-console.log(API_URL)
+
 const App = () => {
     const [Games, setGames] = useState([]);
     
     const SearchGames = async (title) => {
         const response = await fetch(`${API_URL}&search=${title}`);
         const data = await response.json();
-        console.log(data);
+        
         setGames(data.results); 
     };
 
