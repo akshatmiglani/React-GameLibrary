@@ -16,7 +16,7 @@ const App = () => {
     };
 
     useEffect(() => {
-        SearchGames();
+        SearchGames('');
     }, []);
 
     const handleSearchInputChange = (event) => {
